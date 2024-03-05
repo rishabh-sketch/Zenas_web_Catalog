@@ -1,7 +1,7 @@
-"""import streamlit
+import streamlit
 import snowflake.connector
 
-streamlit.title('My Parents New Healthy Dinner')"""
+streamlit.title('My Parents New Healthy Dinner')
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
